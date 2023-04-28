@@ -16,6 +16,7 @@ public class TestingDockerApplication {
 	@PostConstruct
 	public  void init(){
 		logger.info("application started....");
+		logger.info("application starteddddd second....");
 	}
 	public static void main(String[] args) {
 		logger.info("application excuted....");
